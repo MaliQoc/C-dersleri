@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 int main(int argc, char *argv[]) {
     
     char Ad[30],Soyad[10],Yas[2],Sehir[10],Meslek[30];
     
-    /* Tanımlarken bir diğer şekil de verinin kullanıcıdan klavye girişiyle alınmasıdır.
-    printfle komutu basarken içine kullanıcıdan çekilecek veri scanf ile iletilir. */
+    /* TanÄ±mlarken bir diÄŸer ÅŸekil de verinin kullanÄ±cÄ±dan klavye giriÅŸiyle alÄ±nmasÄ±dÄ±r.
+    printfle komutu basarken iÃ§ine kullanÄ±cÄ±dan Ã§ekilecek veri scanf ile iletilir. */
     
     printf("Adim: ");
     scanf("%s",Ad);
@@ -31,7 +29,7 @@ int main(int argc, char *argv[]) {
     printf("Yasi: %s\n",Yas);
     printf("Meslek: %s - Sehir: %s",Meslek,Sehir);
 	
-	// Burada kullanıcıdan elde ettiğimiz veriyi printfle düz şekilde terminale basmış oluyoruz.
+    // Burada kullanÄ±cÄ±dan elde ettiÄŸimiz veriyi printfle dÃ¼z ÅŸekilde terminale basmÄ±ÅŸ oluyoruz.
 	
-	return 0;
+    return 0;
 }
