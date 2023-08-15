@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 int main(int argc, char *argv[]) {
 	
 	char gskadro[35]="GALATASARAY 2021-22 ANA KADROSU";
@@ -20,7 +18,7 @@ int main(int argc, char *argv[]) {
 	char sagkanat[10]="Morutan";
 	char forvet[10]="Mohamed";
 	
-	// char değişkenlerde tanımlama yaparken bu şekil bir kullanım yapabiliriz. C de her satırda noktalı virgül kullanılır.
+	// char deÄŸiÅŸkenlerde tanÄ±mlama yaparken bu ÅŸekil bir kullanÄ±m yapabiliriz. C de her satÄ±rda noktalÄ± virgÃ¼l kullanÄ±lÄ±r.
 	
     printf("%s\n\n\n",gskadro);
 	printf("%s\n\n",direktor);
@@ -38,8 +36,10 @@ int main(int argc, char *argv[]) {
 	printf("%s",forvet);
 	
 	
-	/* char değişkeniyle düz yazı bastırabilirsiniz. Galatasaray'ın bir kadro örneğini bu şekilde yazdırmışız. printf komutu yazdırmaya yarar. 
-	İçerisindeki %s ve virgülden sonra yazılan değişken ismiyle char ve string karakterler printf e çekilmiş olur. */
+	/* char deÄŸiÅŸkeniyle dÃ¼z yazÄ± bastÄ±rabilirsiniz. Galatasaray'Ä±n bir kadro Ã¶rneÄŸini bu ÅŸekilde yazdÄ±rmÄ±ÅŸÄ±z. printf komutu yazdÄ±rmaya yarar. 
+	Ä°Ã§erisindeki %s ve virgÃ¼lden sonra yazÄ±lan deÄŸiÅŸken ismiyle char ve string karakterler printf e Ã§ekilmiÅŸ olur. */
+
+	// \n terminalde satÄ±r atlamanÄ±zÄ± saÄŸlar.
 	
 	return 0;
 }
