@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
 		printf("Odemeniz Gereken Tutar: %d TL",d);
 	}
 	
-	// Bir aracýn otoparkta durduðu süreye göre farklý tarife uygulanýp, net fiyata iþlenecek bir kod yazýlmasý istenmiþ.
-
+	// Bir aracın otoparkta durduğu süreye göre farklı tarife uygulanıp, net fiyata işlenecek bir kod yazılması istenmiş.
+	
 	return 0;
 }
