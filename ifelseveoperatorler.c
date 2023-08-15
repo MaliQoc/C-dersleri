@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 int main(int argc, char *argv[]) {
-	
-	
 	
 	printf("...Ogrenci Ortalama Hesaplama Sistemi...\n");
 	printf("******************************************\n\n");
@@ -39,11 +35,12 @@ int main(int argc, char *argv[]) {
 	{
 		printf("Sinifi gecemediniz\n\n");
 	}
+
 	
-	/* IF-ELSE DÖNGÜSÜ
+	/* IF-ELSE DÃ–NGÃœSÃœ
 	
-	if ve else döngüsü olmak ya da olmamak gibi düşünülebilir. Bazen de böyleyse ya da değilse olarak düşünülebilir.
-	if içerisine yazılan ifade sağlanıyorsa if bloğundaki işlemler, sağlanmıyorsa diğer if bloklarındaki veya else deki işlemler yapılır. */
+	if ve else dÃ¶ngÃ¼sÃ¼ olmak ya da olmamak gibi dÃ¼ÅŸÃ¼nÃ¼lebilir. Bazen de bÃ¶yleyse ya da deÄŸilse olarak dÃ¼ÅŸÃ¼nÃ¼lebilir.
+	if iÃ§erisine yazÄ±lan ifade saÄŸlanÄ±yorsa if bloÄŸundaki iÅŸlemler, saÄŸlanmÄ±yorsa diÄŸer if bloklarÄ±ndaki veya else deki iÅŸlemler yapÄ±lÄ±r. */
 	
 	
 	
@@ -73,20 +70,20 @@ int main(int argc, char *argv[]) {
 	
 	if(ort>=85)
 	{
-		printf("TEBRİKLER! Takdir belgesi almaya hak kazandiniz");
+		printf("TEBRÄ°KLER! Takdir belgesi almaya hak kazandiniz");
 	}
 	else
 	{
 		printf("Maalesef... Takdir belgesi alamiyorsunuz");
 	}
 	
-	/* < > = ! & | gibi bazı operatörlerimiz vardır.
-	1) < küçüklüğü belirtir. <= küçük eşittir anlamında kullanılır.
-	2) > büyüklüğü belirtir. >= büyük eşittir anlamında kullanılır.
-	ÖNEMLİ: = eşittir işareti anlamına gelmez. Eşitlik ifade etmek için == kullanılır.
-	3) ! değildir anlamında kullanılır. Örneğin %2 != 0 2 ye tam bölünemeyen ifadeler manasına gelir. Baştaki % işareti mod manasında kullanılmıştır.
-	4) && ve anlamında kullanılıp 2 ifadeyi bağlar. İki ifadenin de sağlanması gerekir.
-	5) || veya, ya da anlamına gelir. İki ifadeden biri sağlıyorsa tamamdır gibi düşünebiliriz.
+	/* < > = ! & | gibi bazÄ± operatÃ¶rlerimiz vardÄ±r.
+	1) < kÃ¼Ã§Ã¼klÃ¼ÄŸÃ¼ belirtir. <= kÃ¼Ã§Ã¼k eÅŸittir anlamÄ±nda kullanÄ±lÄ±r.
+	2) > bÃ¼yÃ¼klÃ¼ÄŸÃ¼ belirtir. >= bÃ¼yÃ¼k eÅŸittir anlamÄ±nda kullanÄ±lÄ±r.
+	Ã–NEMLÄ°: = eÅŸittir iÅŸareti anlamÄ±na gelmez. EÅŸitlik ifade etmek iÃ§in == kullanÄ±lÄ±r.
+	3) ! deÄŸildir anlamÄ±nda kullanÄ±lÄ±r. Ã–rneÄŸin %2 != 0 2 ye tam bÃ¶lÃ¼nemeyen ifadeler manasÄ±na gelir. BaÅŸtaki % iÅŸareti mod manasÄ±nda kullanÄ±lmÄ±ÅŸtÄ±r.
+	4) && ve anlamÄ±nda kullanÄ±lÄ±p 2 ifadeyi baÄŸlar. Ä°ki ifadenin de saÄŸlanmasÄ± gerekir.
+	5) || veya, ya da anlamÄ±na gelir. Ä°ki ifadeden biri saÄŸlÄ±yorsa tamamdÄ±r gibi dÃ¼ÅŸÃ¼nebiliriz. */
 	
 	return 0;
 }
