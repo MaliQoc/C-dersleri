@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-	
+
 	printf("*******OTOPARK FIYAT OTOMASYONU*******\n\n");
 	
 	printf(" DEGERLI KASIYERIMIZ LUTFEN SUNLARI UNUTMAYINIZ: a=kalinan sure, b=otopark saat fiyati , c=indirim miktari , d=toplam tutar \n\n");
