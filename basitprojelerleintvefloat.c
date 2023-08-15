@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 int main(int argc, char *argv[]) {
 	
 	float su,kola,bilet,misir,toplam;
 	
-	// float tam olmayan sayıları tanımlarken kullanılır. Örneğin 0.2 , 10.3 gibi.
+	// float tam olmayan sayÄ±larÄ± tanÄ±mlarken kullanÄ±lÄ±r. Ã–rneÄŸin 0.2 , 10.3 gibi.
 	
 	printf("RESTORAN OTOMASYON-FIYAT SISTEMI\n");
 	
@@ -25,15 +23,15 @@ int main(int argc, char *argv[]) {
 	
 	toplam= misir*4+kola*10+bilet*30+su*1.5;
 	
-	// toplam fonksiyonuna yapılacak işlemi atıyoruz.
+	// toplam fonksiyonuna yapÄ±lacak iÅŸlemi atÄ±yoruz.
 	
 	printf("Odemeniz Gereken Miktar: %f TL\n\n\n",toplam);
 	
-	// Toplam ödememiz gereken miktar toplam fonksiyonu aracılığıyla yazdırılıyor.
+	// Toplam Ã¶dememiz gereken miktar toplam fonksiyonu aracÄ±lÄ±ÄŸÄ±yla yazdÄ±rÄ±lÄ±yor.
 	
 	int s1,s2,s3,p1,p2,ort;
 	
-	// int yani integer tam sayıların değişkenidir.
+	// int yani integer tam sayÄ±larÄ±n deÄŸiÅŸkenidir.
 	
 	printf("ORTALAMA HESAPLAMA SISTEMI\n");
 	
@@ -52,14 +50,13 @@ int main(int argc, char *argv[]) {
 	printf("Ikinci Proje Notu: ");
 	scanf("%d",&p2);
 	
-	// int float gibi değerler scanf içinde kullanılırken virgülden sonra & (ampersand - gemici düğümü) işareti kullanılır.
+	// int float gibi deÄŸerler scanf iÃ§inde kullanÄ±lÄ±rken virgÃ¼lden sonra & (ampersand - gemici dÃ¼ÄŸÃ¼mÃ¼) iÅŸareti kullanÄ±lÄ±r.
 	
 	ort= ((s1+s2+s3)/3 + (p1+p2)/2)/2;
 	
 	printf("Ortalamaniz: %d\n",ort);
 	
-	// scanf veya printf içerisinde int %d float %f ile tanımlanır.
-	
+	// scanf veya printf iÃ§erisinde int %d float %f ile tanÄ±mlanÄ±r.
 	
 	return 0;
 }
