@@ -3,27 +3,27 @@
 
 int main(int argc, char *argv[]) {
 	
-	int i,a,b,c,d;
+    int i,a,b,c,d;
 	
-	a=1;
-	b=1;
-	c=1;
+    a=1;
+    b=1;
+    c=1;
 	
-	printf("%d\n",a);
-	printf("%d\n",b);
-	printf("%d\n",c);
+    printf("%d\n",a);
+    printf("%d\n",b);
+    printf("%d\n",c);
 	
-	for(i=1;i<13;i++)
-	{
-		d=a+b+c;
-		a=b;
-		b=c;
-		c=d;
-		printf("%d\n",d);
-	}
-	printf("Sonucunuz: %d",d);
+    for(i=1;i<13;i++)
+    {
+	d=a+b+c;
+	a=b;
+	b=c;
+	c=d;
+	printf("%d\n",d);
+    }
+    printf("Sonucunuz: %d",d);
 	
-	// Tribonacci dizisinin C dilinde nasýl yazýldýðýnýn bir örneðidir.
-	
-	return 0;
+    // Tribonacci dizisinin C dilinde nasÄ±l yazÄ±ldÄ±ÄŸÄ±nÄ±n bir Ã¶rneÄŸidir.
+
+    return 0;
 }
