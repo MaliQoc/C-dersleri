@@ -3,20 +3,20 @@
 
 int main(int argc, char *argv[]) {
 	
-	int i,faktor,k;
-	faktor=1;
+    int i,faktor,k;
+    faktor=1;
 	
-	printf("Sayi girin: ");
-	scanf("%d",&k);
+    printf("Sayi girin: ");
+    scanf("%d",&k);
 	
-	for(i=1;i<=k;i++)
-	{
-		faktor=faktor*i;
-		printf("%d\n",faktor);
-	}
-	printf("Sonucunuz: %d",faktor);
+    for(i=1;i<=k;i++)
+    {
+	faktor=faktor*i;
+	printf("%d\n",faktor);
+    }
+    printf("Sonucunuz: %d",faktor);
 	
-	// Kullanýcýnýn girdiði sayýnýn faktöriyelini alýr.
+    // KullanÄ±cÄ±nÄ±n girdiÄŸi sayÄ±nÄ±n faktÃ¶riyelini alÄ±r.
 	
-	return 0;
+    return 0;
 }
