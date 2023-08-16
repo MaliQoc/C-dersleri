@@ -8,22 +8,22 @@ int main(int argc, char *argv[]) {
     for(i=1;i<=20;i+=2)
     {
     	printf("%d - Merhaba Balikesir\n",i);
-	}
+    }
 	
-	// Ýkiþer artýþ olduðu için toplamda 10 defa Merhaba Balýkesir yazdýrýr.
+	// Ä°kiÅŸer artÄ±ÅŸ olduÄŸu iÃ§in toplamda 10 defa Merhaba BalÄ±kesir yazdÄ±rÄ±r.
     
-    /* FOR DÖNGÜSÜ
-    Döngü içerisindeki þartlara göre içerideki iþlemler gerçekleþtirilir.
-    (döngü nereden baþlayacak;nerede bitecek;döngü kaçar kaçar artacak) mantýðýya hareket ederiz
+    /* FOR DÃ–NGÃœSÃœ
+    DÃ¶ngÃ¼ iÃ§erisindeki ÅŸartlara gÃ¶re iÃ§erideki iÅŸlemler gerÃ§ekleÅŸtirilir.
+    (dÃ¶ngÃ¼ nereden baÅŸlayacak;nerede bitecek;dÃ¶ngÃ¼ kaÃ§ar kaÃ§ar artacak) mantÄ±ÄŸÄ±yla hareket ederiz. */
     
 	/* 2- */ int i;
     
     for(i=1;i<=20;i+=2)
     {
     	printf("%d\n",i);
-	}
+    }
 	
-	// 1 den 20 ye kadar ikiþer ikiþer artýþ olur.
+    // 1 den 20 ye kadar ikiÃ¾er ikiÃ¾er artÃ½Ã¾ olur.
     
-	return 0;
+    return 0;
 }
