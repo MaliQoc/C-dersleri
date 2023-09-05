@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// string.h kütüphanesini strlen fonksiyonu için kullandık.
+// string.h kÃ¼tÃ¼phanesini strlen fonksiyonu iÃ§in kullandÄ±k.
 
 int main(int argc, char *argv[]) {
 	
@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 	
 	printf("Kelime Uzunlugu: %d",strlen(kelime));
 	
-	// strlen ile girdiğiniz kelimenin uzunluğunu ölçebilirsiniz.
+	// strlen ile girdiÄŸiniz kelimenin uzunluÄŸunu Ã¶lÃ§ebilirsiniz.
 	
 	return 0;
 }
