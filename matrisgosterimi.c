@@ -14,8 +14,8 @@ int main(int argc, char *argv[]) {
 		printf("\n");
 	}
 	
-	/* matris[satır sayısı][sütun sayısı] şeklinde gösterdik. Bu kod istediğimiz matrisi elle yazdırmamızı sağlar. 
-	\t matris gösterimleri için kullanılır. Sütun ve satır olarak bölmeyi sağlar. */
+	/* matris[satÄ±r sayÄ±sÄ±][sÃ¼tun sayÄ±sÄ±] ÅŸeklinde gÃ¶sterdik. Bu kod istediÄŸimiz matrisi elle yazdÄ±rmamÄ±zÄ± saÄŸlar. 
+	\t matris gÃ¶sterimleri iÃ§in kullanÄ±lÄ±r. SÃ¼tun ve satÄ±r olarak bÃ¶lmeyi saÄŸlar. */
 	
 	return 0;
 }
