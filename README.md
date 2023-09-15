@@ -1,5 +1,5 @@
 # C-dersleri
-2021 yılında öğrendiğim C dilini öğrenirken derslerde yazdığım kodları sizlerle paylaşıyorum. C öğrenmek isteyen arkadaşlarınızla paylaşabilirsiniz.
+2021 yılında öğrendiğim C dilini öğrenirken yazdığım kodları sizlerle paylaşıyorum. C öğrenmek isteyen arkadaşlarınızla paylaşabilirsiniz.
  
 ÖNEMLİ! Bu konuların temel C eğitiminden geldiğini unutmayın. Daha ileri seviye C öğrenmek isteyenler için kaynakları aşağıda vereceğim.
 
